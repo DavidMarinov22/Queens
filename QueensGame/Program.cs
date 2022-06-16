@@ -5,14 +5,6 @@ namespace QueensGame
 {
     internal class Program
     {
-        /*
-            *   ________                           ________  ___________    ________                                      
-               /  _____/_____    _____   ____      \_____  \ \_   _____/    \_____  \  __ __   ____   ____   ____   ______
-              /   \  ___\__  \  /     \_/ __ \      /   |   \ |    __)       /  / \  \|  |  \_/ __ \ /    \ /    \ /  ___/
-              \    \_\  \/ __ \|  Y Y  \  ___/     /    |    \|     \       /   \_/.  \  |  /\  ___/|   |  \   |  \\___ \ 
-               \______  (____  /__|_|  /\___  >    \_______  /\___  /       \_____\ \_/____/  \___  >___|  /___|  /____  >
-                      \/     \/      \/     \/             \/     \/               \__>           \/     \/     \/     \/ 
-        */
         static void Main()
         {
             //Pre declared variables
@@ -174,10 +166,15 @@ namespace QueensGame
 
         private static void DrawHelp()
         {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("ABOUT THE GAME");
-            Console.WriteLine(" --Queens game is a board game played between two players.\n    The game is the work of the great minds of the I Can Here and Now initiative, in 2022 in June.\n    The game includes strategic thinking and good concentration into the game. ");
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine(" -- Queens game is a board game played between two players.\n    The game is the work of the great minds of the I Can Here and Now initiative, in 2022 in June.\n    The game includes strategic thinking and good concentration into the game. ");
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("GAMEPLAY");
-            Console.WriteLine(" --At the beginning you need to set the size of the board, which should be in the range of 4 - 30.\n    Then the first player must set the coordinates for the queen he wants to place in the range of 1 - n size.\n    The '*' are possible moves for queen and player cannot place another queen there.\n   The winner is the one who last puts a queen and fills the whole board.");
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine(" -- At the beginning you need to set the size of the board, which should be in the range of 4 - 30.\n    Then the first player must set the coordinates for the queen they want to place in the range of 1 - n size.\n    The '*' are possible moves for queen and player cannot place another queen there.\n    The winner is the one who last puts a queen and fills the whole board.");
+            Console.ResetColor();
         }
 
         private static void DrawWinner(string player)
@@ -185,24 +182,24 @@ namespace QueensGame
             StringBuilder sb = new StringBuilder();
             if (player == "Player1")
             {
-                sb.AppendLine("__________.__                                 ________              .__         ._.");
-                sb.AppendLine("\\______   \\  | _____  ___.__. ___________     \\_____  \\     __  _  _|__| ____   | |");
-                sb.AppendLine(" |     ___/  | \\__  \\<   |  |/ __ \\_  __ \\     /  ____/     \\ \\/ \\/ /  |/    \\  | |");
-                sb.AppendLine(" |    |   |  |__/ __ \\___   \\ ___/|  | \\/     /       \\      \\     /|  |   |  \\  \\|");
-                sb.AppendLine(" |____|   |____(____  / ____|\\___  >__|       \\_______ \\      \\/\\_/ |__|___|  /  __");
-                sb.AppendLine("       \\/\\/         \\/                                \\/       \\/   \\/");
+                sb.AppendLine(" ____  _                           ____               _              _ ");
+                sb.AppendLine("|  _ \\| | __ _ _   _  ___ _ __    |___ \\    __      _(_)_ __  ___   | |");
+                sb.AppendLine("| |_) | |/ _` | | | |/ _ \\ '__|     __) |   \\ \\ /\\ / / | '_ \\/ __|  | |");
+                sb.AppendLine("|  __/| | (_| | |_| |  __/ |       / __/     \\ V  V /| | | | \\__ \\  |_|");
+                sb.AppendLine("|_|   |_|\\__,_|\\__, |\\___|_|      |_____|     \\_/\\_/ |_|_| |_|___/  (_)");
+                sb.AppendLine("               |___/                                                   ");
 
             }
             else
             {
-                sb.AppendLine("__________.__                                 ____             .__          ._.");
-                sb.AppendLine("\\______   \\  | _____  ___.__. ___________    /_   |    __  _  _|__| ____    | |");
-                sb.AppendLine(" |     ___/  | \\__  \\<   |  |/ __ \\_  __ \\    |   |    \\ \\/ \\/ /  |/    \\   | |");
-                sb.AppendLine(" |    |   |  |__/ __ \\___   \\  ___/|  | \\/    |   |     \\     /|  |   |  \\   \\|");
-                sb.AppendLine(" |____|   |____(____  / ____|\\___  >__|       |___|      \\/\\_/ |__|___|  /   __");
-                sb.AppendLine("       \\/\\/         \\/                                    \\/   \\/");
+                sb.AppendLine(" ____  _                           _              _              _ ");
+                sb.AppendLine("|  _ \\| | __ _ _   _  ___ _ __    / |   __      _(_)_ __  ___   | |");
+                sb.AppendLine("| |_) | |/ _` | | | |/ _ \\ '__|   | |   \\ \\ /\\ / / | '_ \\/ __|  | |");
+                sb.AppendLine("|  __/| | (_| | |_| |  __/ |      | |    \\ V  V /| | | | \\__ \\  |_|");
+                sb.AppendLine("|_|   |_|\\__,_|\\__, |\\___|_|      |_|     \\_/\\_/ |_|_| |_|___/  (_)");
+                sb.AppendLine("               |___/                                               ");
             }
-            sb.AppendLine("════════════════════════════════════════════════════════════════════════════════════");
+            sb.AppendLine("══════════════════════════════════════════════════════════════════════════");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(sb.ToString());
             Console.ResetColor();
@@ -210,18 +207,26 @@ namespace QueensGame
         private static void DrawTitle()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("═════════════════════════════════════════════════════════════════════════════════════════════════════════════");
-            sb.AppendLine("  ________                           ________  ___________    ________");
-            sb.AppendLine(" /  _____/_____    _____   ____      \\_____  \\ \\_   _____/    \\_____  \\  __ __   ____   ____   ____   ______");
-            sb.AppendLine("/   \\  ___\\__  \\  /     \\_/ __ \\      /   |   \\ |    __)       /  / \\  \\|  |  \\_/ __ \\ /    \\ /    \\ /  ___/");
-            sb.AppendLine("\\    \\_\\  \\/ __ \\|  Y Y  \\  ___/     /    |    \\|     \\       /   \\_/.  \\  |  /\\  ___/|   |  \\   |  \\___ \\ ");
-            sb.AppendLine(" \\______  (____  /__|_|  /\\___  >    \\_______  /\\___  /       \\_____\\ \\_/____/  \\___  >___|  /___|  /____  >");
-            sb.AppendLine("        \\/     \\/      \\/     \\/             \\/     \\/               \\__>           \\/     \\/     \\/     \\/ ");
-            sb.AppendLine("═════════════════════════════════════════════════════════════════════════════════════════════════════════════");
-            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            sb.AppendLine("════════════════════════════════════════════════════════════════════════════════════");
+            sb.AppendLine("  ____                                  __       ___                            ");
+            sb.AppendLine(" / ___| __ _ _ __ ___   ___       ___  / _|     / _ \\ _   _  ___  ___ _ __  ___ ");
+            sb.AppendLine("| |  _ / _` | '_ ` _ \\ / _ \\     / _ \\| |_     | | | | | | |/ _ \\/ _ \\ '_ \\/ __|");
+            sb.AppendLine("| |_| | (_| | | | | | |  __/    | (_) |  _|    | |_| | |_| |  __/  __/ | | \\__ \\");
+            sb.AppendLine(" \\____|\\__,_|_| |_| |_|\\___|     \\___/|_|       \\__\\_\\__,_|\\___|\\___|_| |_|___/");
+            sb.AppendLine("════════════════════════════════════════════════════════════════════════════════════");
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(sb.ToString());
             Console.ResetColor();
         }
+
+        /*
+              ____                                  __       ___                            
+             / ___| __ _ _ __ ___   ___       ___  / _|     / _ \ _   _  ___  ___ _ __  ___ 
+            | |  _ / _` | '_ ` _ \ / _ \     / _ \| |_     | | | | | | |/ _ \/ _ \ '_ \/ __|
+            | |_| | (_| | | | | | |  __/    | (_) |  _|    | |_| | |_| |  __/  __/ | | \__ \
+             \____|\__,_|_| |_| |_|\___|     \___/|_|       \__\_\\__,_|\___|\___|_| |_|___/
+                                                                                            
+        */
 
         private static void DrawBorder(string[][] border, int sizeOfY, int sizeOfX)
         {

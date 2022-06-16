@@ -30,3 +30,19 @@ D:\CODES\QueensGame\obj\Debug\net5.0\refint\QueensGame.dll
 D:\CODES\QueensGame\obj\Debug\net5.0\QueensGame.pdb
 D:\CODES\QueensGame\obj\Debug\net5.0\QueensGame.genruntimeconfig.cache
 D:\CODES\QueensGame\obj\Debug\net5.0\ref\QueensGame.dll
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\bin\Debug\net5.0\QueensGame.exe
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\bin\Debug\net5.0\QueensGame.deps.json
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\bin\Debug\net5.0\QueensGame.runtimeconfig.json
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\bin\Debug\net5.0\QueensGame.runtimeconfig.dev.json
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\bin\Debug\net5.0\QueensGame.dll
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\bin\Debug\net5.0\QueensGame.pdb
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\obj\Debug\net5.0\QueensGame.csproj.AssemblyReference.cache
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\obj\Debug\net5.0\QueensGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\obj\Debug\net5.0\QueensGame.AssemblyInfoInputs.cache
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\obj\Debug\net5.0\QueensGame.AssemblyInfo.cs
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\obj\Debug\net5.0\QueensGame.csproj.CoreCompileInputs.cache
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\obj\Debug\net5.0\QueensGame.dll
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\obj\Debug\net5.0\refint\QueensGame.dll
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\obj\Debug\net5.0\QueensGame.pdb
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\obj\Debug\net5.0\QueensGame.genruntimeconfig.cache
+D:\INSTALL PROGRAMS\GitHubDesktop\Queens\QueensGame\obj\Debug\net5.0\ref\QueensGame.dll

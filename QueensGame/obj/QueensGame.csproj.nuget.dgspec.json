@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CODES\\QueensGame\\QueensGame.csproj": {}
+    "D:\\INSTALL PROGRAMS\\GitHubDesktop\\Queens\\QueensGame\\QueensGame.csproj": {}
   },
   "projects": {
-    "D:\\CODES\\QueensGame\\QueensGame.csproj": {
+    "D:\\INSTALL PROGRAMS\\GitHubDesktop\\Queens\\QueensGame\\QueensGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CODES\\QueensGame\\QueensGame.csproj",
+        "projectUniqueName": "D:\\INSTALL PROGRAMS\\GitHubDesktop\\Queens\\QueensGame\\QueensGame.csproj",
         "projectName": "QueensGame",
-        "projectPath": "D:\\CODES\\QueensGame\\QueensGame.csproj",
+        "projectPath": "D:\\INSTALL PROGRAMS\\GitHubDesktop\\Queens\\QueensGame\\QueensGame.csproj",
         "packagesPath": "C:\\Users\\rex20\\.nuget\\packages\\",
-        "outputPath": "D:\\CODES\\QueensGame\\obj\\",
+        "outputPath": "D:\\INSTALL PROGRAMS\\GitHubDesktop\\Queens\\QueensGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
