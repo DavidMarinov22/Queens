@@ -133,7 +133,7 @@ namespace QueensGame
                     //Value Y
                     Console.Write("The value for (y) - ");
                     playerRow = int.Parse(Console.ReadLine()) - 1;
-                    if (playerRow < 0 || playerRow >= board.SizeX)
+                    if (playerRow < 0 || playerRow >= board.SizeY)
                     {
                         throw new ArgumentException("!! - The value for (y) is invalid. - !!");
                     }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\INSTALL PROGRAMS\\GitHubDesktop\\Queens\\QueensGame\\QueensGame.csproj": {}
+    "D:\\A Programming\\C#\\Console\\QUEENS\\QueensGame\\QueensGame.csproj": {}
   },
   "projects": {
-    "D:\\INSTALL PROGRAMS\\GitHubDesktop\\Queens\\QueensGame\\QueensGame.csproj": {
+    "D:\\A Programming\\C#\\Console\\QUEENS\\QueensGame\\QueensGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\INSTALL PROGRAMS\\GitHubDesktop\\Queens\\QueensGame\\QueensGame.csproj",
+        "projectUniqueName": "D:\\A Programming\\C#\\Console\\QUEENS\\QueensGame\\QueensGame.csproj",
         "projectName": "QueensGame",
-        "projectPath": "D:\\INSTALL PROGRAMS\\GitHubDesktop\\Queens\\QueensGame\\QueensGame.csproj",
-        "packagesPath": "C:\\Users\\rex20\\.nuget\\packages\\",
-        "outputPath": "D:\\INSTALL PROGRAMS\\GitHubDesktop\\Queens\\QueensGame\\obj\\",
+        "projectPath": "D:\\A Programming\\C#\\Console\\QUEENS\\QueensGame\\QueensGame.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "D:\\A Programming\\C#\\Console\\QUEENS\\QueensGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rex20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
