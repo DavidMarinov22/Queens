@@ -162,7 +162,9 @@ namespace QueensGame
             //End and Winner
             Console.Clear();
             DrawWinner(player);
-            Console.Write("Do you want to play more ? \n(Y / N): ");
+            DrawBorder(border, sizeOfY, sizeOfX);
+            board.DrawField(row, col);
+            Console.Write("\nDo you want to play more ? \n(Y / N): ");
             continueGame = Console.ReadLine();
             continueGame = continueGame.ToLower();
             if (continueGame == "y")
